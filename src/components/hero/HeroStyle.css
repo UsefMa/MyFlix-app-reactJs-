@@ -1,0 +1,83 @@
+.hero_container {
+  width: 100%;
+  height: 60vh;
+ 
+  
+}
+
+.hero_img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+.hero_info {
+  position: relative;
+  left: 30px;
+  bottom: 400px;
+  color: white;
+  max-width: 700px;
+  
+}
+
+.hero_title {
+  font-size: 39px;
+  font-family: 'Kanit', sans-serif;
+
+  color: white;
+  margin: 1rem 0px;
+}
+.play-btn {
+  background-color: transparent;
+  width: 6rem;
+  height: 3rem;
+  color: black;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1rem 0px;
+  margin-right: 1rem;
+  font-family: 'Kanit', sans-serif;
+
+
+}
+.watch-btn {
+  background-color: transparent;
+  width: 6rem;
+  height: 3rem;
+  color: rgb(170, 169, 169);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: solid rgb(153, 149, 149);
+  border-width: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+  padding: 1px;
+  font-family: 'Kanit', sans-serif;
+
+}
+.overview {
+  
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+
+}
+@media screen and (max-width:500px)  {
+  .hero_title{
+    font-size: 1rem;
+  }
+  .hero_info{
+    margin-top: 10rem;
+  }
+  .overview{
+    display: none;
+  }
+}

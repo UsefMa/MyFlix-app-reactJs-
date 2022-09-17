@@ -1,0 +1,82 @@
+.sections-title {
+  color: white;
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+  margin: 1rem;
+  background-color: rgb(108, 119, 119, 0.2);
+  width: fit-content;
+  padding: 5px 1rem;
+  margin-top: 1rem;
+}
+.section-container {
+  display: flex;
+  overflow-x: auto;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: 5rem;
+ 
+}
+
+.img_card {
+  display: block;
+  width: 13rem;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.icon-right{
+    color: black;
+    width: 2rem;
+    background-color: white;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 0%;
+    position: absolute;
+    z-index: 10;
+    margin-top: 5rem;
+    opacity: 0.7;
+
+
+}
+.icon-right:hover{
+    opacity: 3;
+}
+.icon-left {
+  color: black;
+  width: 2rem;
+  background-color: white;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0%;
+  cursor: pointer;
+  z-index: 10;
+  margin-top: 5rem;
+  opacity: 0.7;
+}
+.icon-left:hover {
+  opacity: 3;
+}
+.shown_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Cairo', sans-serif;
+    opacity: 0.4;
+
+}
+.img_card:hover + .shown_info {
+    opacity: 2;
+}
+.img_card:hover + .icon-right {
+    opacity: 2;
+}
+.img_card {
+    cursor: pointer;
+    margin: 1rem;
+}
+
