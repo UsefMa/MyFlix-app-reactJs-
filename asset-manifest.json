@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MyFlix-app-reactJs-/static/css/main.9cf4ee97.css",
+    "main.js": "/MyFlix-app-reactJs-/static/js/main.195ddea2.js",
+    "index.html": "/MyFlix-app-reactJs-/index.html",
+    "main.9cf4ee97.css.map": "/MyFlix-app-reactJs-/static/css/main.9cf4ee97.css.map",
+    "main.195ddea2.js.map": "/MyFlix-app-reactJs-/static/js/main.195ddea2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf4ee97.css",
+    "static/js/main.195ddea2.js"
+  ]
+}
